@@ -10,39 +10,9 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" >
     <title>Salomon's Portfolio</title>
-    <style type="text/css">
-      body {
-
-      }
-
-      h1 {
-          text-align: center;
-          /*color: green;*/
-      }
-      .container img {
-        height: auto;
-        max-width: 360px;
-        text-align: center;
-        display: block;
-        margin: auto;
-      }
-
-
-      .row {
-        text-align: center;
-      }
-
-      .col-md-4 {
-        text-align: center;
-      }
-
-      nav {
-        margin-top: auto;
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
 <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #e3f2fd;">
@@ -62,14 +32,15 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Email</a></li>
-        <li><a href="#">Github</a></li>
+        <li><a href="https://twitter.com/_JordanFeen"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:salomonpluviose@yahoo.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/UntouchableHarlan"><i class="fa fa-github" aria-hidden="true"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
     <!-- Page Contect -->
+  <div class="my-custom">
 
     <div class="container">
       <h1>Salomon Pluviose</h1>
@@ -79,18 +50,21 @@
     </div>
     <div class="row" id="skills">
 
-      <div class="col-md-4">
+      <div class="col-md-8">
           <h2>Skills</h2>
           <img src="css5.png" alt="" />
-          <img src="html5pic.png" alt="" />
-          <img src="ruby.png" alt="" />
+          <img src="html5pic.png" style="margin-top: 13px;" />
+          <img src="ruby.png" style="margin-top: 26px" />
+          <img src="rails.png" style="margin-top: 30px" />
+          <img src="jvs.png" style="height: 154px; width: 126px; padding-left: 8px; padding-top: 22px;" />
+      </div>
+
+      <div class="col-md-4">
+        <h2>Motives</h2>
+        <p>I love to build thing. I never get tired of keeping my eyes on a computer screen. I love to help people when they're going through a problem. I've come to learn that you succeed more when you help others. Holding knowledge to yourself is not good. I like to help others knowing I made a difference. If theres one essential thing you need to know about me is that I never stop trying. No matter how hard things get, I rather die than give up. I'm a kid from North Miami, and computers are my life. I like doing a little ethical hacking and alot of programming. Outside of that, I love to watch and analyze sports. </p>
       </div>
 
       <!-- <div class="col-md-4">
-        <a href="https://www.github.com/UntouchableHarlan">Github</a>
-      </div>
-
-      <div class="col-md-4">
         <a href="https://www.yahoo.com">
           <button type="button" class="btn btn-default btn-sm">
             <span class="glyphicon glyphicon-envelope"></span> Email
@@ -99,6 +73,6 @@
       </div> -->
 
     </div>
-
+  </div>
   </body>
 </html>
