@@ -1,19 +1,18 @@
-
+/*
   body {
     margin-top: 50px;
-    /*background-image: url("city.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("basketball.jpeg");
     background-size: 1480px 1000px;
-    background-repeat: no-repeat;*/
-    background-color: tomato;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
   }
 
   h1 {
       text-align: center;
-      /*color: green;*/
   }
-  .container img {
+  */
+  /*#profile-pic {
     border-radius: 50%;
     height: auto;
     max-width: 360px;
@@ -22,23 +21,91 @@
     margin: auto;
     height: 342px;
     width: 250px;
-
   }
 
 
   .row {
     text-align: center;
-  }
+  }*/
 
-  .col-md-4 {
-    text-align: center;
-    padding-right: 101px;
-    color: black;
-  }
+  /*.parallax {
+    background: url('miami.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }*/
 
-  .my-custom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+/*-----------------------------------------------------------------------------------*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("basketball.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("miami2.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("coding.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.namegame {
+  margin-top: 200px;
+  color: red;
+  font-size: 60px;
+  letter-spacing: 10px;
+  line-height:130%;
+
+  /*font-family: 'Sigmar One', cursive;*/
+  /*font-family: 'Righteous', cursive;*/
+  /*font-family: 'Kavoon', cursive;*/
+  font-family: 'Luckiest Guy', cursive;
+
+}
+
+.caption span.border {
+  /*background-color: #111;*/
+  color: red;
+  padding: 18px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: Futura;
+  line-height:130%;
+}
+
+h3 {
+  text-align:center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
